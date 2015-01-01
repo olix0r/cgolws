@@ -1,1 +1,1 @@
-web: lein ring server-headless $PORT
+web: lein cljsbuild && lein ring server-headless $PORT
