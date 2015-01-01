@@ -16,4 +16,6 @@
                              :pretty-print true}}]}
 
   :profiles {:dev {:dependencies [[ring-mock "0.1.5"]]}}
-  :ring {:handler cgolws.handler/app})
+  :ring {:handler cgolws.handler/app}
+
+  :min-lein-version "2.5.0")
